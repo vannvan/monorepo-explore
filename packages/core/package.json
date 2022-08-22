@@ -1,0 +1,21 @@
+{
+  "name": "@mogu/core",
+  "version": "1.0.1",
+  "description": "mogu 核心依赖包",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "rollup -c --watch",
+    "build": "rm -rf dist es lib && tsc --module commonjs && rollup -c"
+  },
+  "publishConfig": {
+    "registry": "http://maven.mogulinker.com/repository/npm-local/"
+  },
+  "keywords": [],
+  "author": "wangzhe <wangzhe@mogulinker.com>",
+  "license": "ISC"
+}
