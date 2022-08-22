@@ -1,6 +1,6 @@
-# mogu-ironman 前端工程化
+# 前端工程化
 
-## 开发 sensors 埋点SDK流程
+## 开发 
 ```
 $ pnpm run start
 ```
@@ -15,3 +15,4 @@ $ pnpm run version-packages
 
 $ pnpm run publish
 ```
+
